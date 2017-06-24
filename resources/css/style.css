@@ -80,13 +80,57 @@
 body {
 	text-align: center;
 }
+.background {
+	color: white;
+	background-image: url('.\resources\image\the-flatiron-building.png'), url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+	background-color: gray;
+}
+
 
 h1{
-	color: seagreen;
+	font-size: 70px;
+	font-weight: bold;
+	
 }
 
 ul {
 	list-style-type: none;
 	vertical-align: center;
 	display: inline-block;
+	font-size: 18px;
+}
+
+a{
+	color: white;
+}
+
+li {
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3, .2ndheader {
+	font-size: 23px;
+	font-weight:bold;
+}
+
+p{
+	font-size: 14px;
+}
+
+footer{
+	text-align: left;
+}
+
+footer {
+	color:white;
+	background-color: dimgray;
+}
+
+span {
+	font-size: 11px;
 }
